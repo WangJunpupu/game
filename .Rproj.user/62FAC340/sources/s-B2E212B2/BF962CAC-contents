@@ -1,0 +1,11 @@
+usethis::use_package("tcltk")
+devtools::document()
+devtools::check()
+git config --global user.name "WangJunpupu"
+git config --global user.email "wangjunpupu@163.com"
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/WangJunpupu/game.git
+git push -u origin master
